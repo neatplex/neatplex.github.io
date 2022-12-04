@@ -1,5 +1,5 @@
 #!/bin/sh
-while :
+for i in {1..8000}
 do
   echo "x" >> text.txt
   git add .
