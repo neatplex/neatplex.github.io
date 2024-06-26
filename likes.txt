@@ -1,3 +1,0 @@
-I added a new file and edited it.
-I added comments feature too.
-I fixed the issue.
