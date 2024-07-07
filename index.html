@@ -12,23 +12,73 @@
 </head>
 <body>
 
+<svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+    <symbol id="arrow-right-circle" viewBox="0 0 16 16">
+        <path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0zM4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H4.5z"/>
+    </symbol>
+</svg>
+
 <main class="container">
-    <div class="bg-body-secondary p-5 rounded mt-3">
+    <div class="bg-body-secondary p-5 rounded mt-3 text-center">
         <h1>Neatplex</h1>
-        <p class="lead">Welcome to Neatplex, Yet another open source organization!</p>
+        <p class="lead">Yet another open source organization!</p>
         <a class="btn btn-lg btn-dark" href="https://github.com/neatplex" role="button" rel="nofollow">
-            View Neatplex GitHub &raquo;
+            GitHub Repositories &raquo;
         </a>
     </div>
 
-    <div class="p-5 rounded mt-3">
-        <h2>Projects</h2>
-        <p class="lead">List of open source projects:</p>
-        <a class="btn btn-lg btn-primary" href="https://nightell.neatplex.com" role="button" rel="nofollow">
-            Nightell
-        </a>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="p-5 rounded mt-3">
+                <h2>Projects</h2>
+                <p class="lead">List of open source projects developed by Neatplex:</p>
+                <ul class="list-unstyled ps-0">
+                    <li>
+                        <a class="icon-link mb-1" href="https://nightell.neatplex.com" rel="nofollow">
+                            <svg class="bi" width="16" height="16">
+                                <use xlink:href="#arrow-right-circle"/>
+                            </svg>
+                            Nightell
+                        </a>
+                        <p class="text-muted">
+                            A social media for storytellers and listeners
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="p-5 rounded mt-3">
+                <h2>Members</h2>
+                <p class="lead">List of Neatplex team members:</p>
+                <ul class="list-unstyled ps-0">
+                    <li>
+                        <a class="icon-link mb-1" href="https://github.com/miladrahimi" rel="nofollow">
+                            <svg class="bi" width="16" height="16">
+                                <use xlink:href="#arrow-right-circle"/>
+                            </svg>
+                            Milad Rahimi
+                        </a>
+                    </li>
+                    <li>
+                        <a class="icon-link mb-1" href="https://github.com/anahitavakoli" rel="nofollow">
+                            <svg class="bi" width="16" height="16">
+                                <use xlink:href="#arrow-right-circle"/>
+                            </svg>
+                            Anahita Tavakoli
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </div>
 </main>
+
+<div class="container">
+    <footer class="pt-5 my-5 text-body-secondary border-top text-center">
+        &copy; 2024 Neatplex
+    </footer>
+</div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
